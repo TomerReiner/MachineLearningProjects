@@ -1,0 +1,12 @@
+,model_name,best_params,best_score
+8,GradientBoostingRegressor,"{'criterion': 'mse', 'loss': 'ls', 'n_estimators': 200}",0.8728357239345698
+2,RandomForestRegressor,{'n_estimators': 163},0.8695996291106918
+10,BaggingRegressor,"{'bootstrap': True, 'bootstrap_features': False, 'max_features': 0.75, 'n_estimators': 30}",0.8547900205387432
+3,DecisionTreeRegressor,"{'max_depth': 10, 'splitter': 'best'}",0.7754586661266084
+1,Ridge,"{'alpha': 1.8, 'max_iter': 1079, 'solver': 'saga'}",0.690266799408314
+0,LinearRegression,"{'n_jobs': None, 'positive': False}",0.6900558320905714
+9,AdaBoostingRegressor,"{'learning_rate': 0.25, 'loss': 'exponential', 'n_estimators': 50}",0.6383582070027236
+6,SVR,"{'C': 1.9, 'degree': 2, 'gamma': 'auto', 'kernel': 'rbf'}",0.5759517805359515
+4,SVR,"{'C': 0.1, 'degree': 2, 'gamma': 'scale', 'kernel': 'linear'}",0.5273359069710954
+5,SVR,"{'C': 0.7, 'degree': 2, 'gamma': 'scale', 'kernel': 'poly'}",0.520078349260735
+7,SVR,"{'C': 1.0, 'degree': 2, 'gamma': 'auto', 'kernel': 'sigmoid'}",0.49837509773654803
